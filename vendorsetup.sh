@@ -6,7 +6,7 @@ echo "Cloning Vendor Tree"
 git clone --depth=1 https://github.com/Evolution-X-Devices/vendor_xiaomi_veux vendor/xiaomi/veux
 
 echo "Cloning Kernel Tree"
-git clone --depth=1 https://github.com/Evolution-X-Devices/kernel_xiaomi_veux.git kernel/xiaomi/veux
+git clone --depth=1 https://github.com/frost-testzone/kernel_xiaomi_sm6375 kernel/xiaomi/veux
 
 echo "Cloning AGC-Cam"
 git clone https://gitlab.com/takixamru/vendor_xiaomi_agc-camera vendor/xiaomi/AGC-Camera
